@@ -10,7 +10,7 @@ const TermsAndCon = () => {
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <div className="max-w-4xl w-full bg-white shadow-lg rounded-lg p-6 md:p-10">
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">Terms and Conditions</h1>
-        <p className="text-gray-600 text-sm text-center mb-6">Effective Date: [Insert Date]</p>
+        {/* <p className="text-gray-600 text-sm text-center mb-6">Effective Date: 26-FEB-2025</p> */}
         
         <div className="space-y-6 text-gray-700">
           <div>
@@ -21,7 +21,6 @@ const TermsAndCon = () => {
           <div>
             <h2 className="text-xl font-semibold">2. Use of the Website</h2>
             <ul className="list-disc list-inside">
-              <li>You must be at least [minimum age] years old to use this website.</li>
               <li>You agree not to use the website for any unlawful or prohibited purpose.</li>
               <li>Unauthorized use of this website may give rise to a claim for damages and/or be a criminal offense.</li>
             </ul>
@@ -55,15 +54,11 @@ const TermsAndCon = () => {
             <p>We reserve the right to update or modify these Terms and Conditions at any time. Changes will be effective upon posting on this page.</p>
           </div>
           
-          <div>
-            <h2 className="text-xl font-semibold">8. Governing Law</h2>
-            <p>These Terms and Conditions are governed by and construed in accordance with the laws of [Your Jurisdiction].</p>
-          </div>
-          
-          <div>
+           <div>
             <h2 className="text-xl font-semibold">9. Contact Us</h2>
             <p>If you have any questions about these Terms and Conditions, please contact us at:</p>
             <p className="font-semibold">TECHY BUILDER</p>
+            <p className="font-semibold">+91 88666 46691</p>
             <p className="font-semibold">techybuilderr@gmail.com</p>
             <p className="font-semibold">34, 3rd floor, Sanket park, Iskcon mandir, Harinagar, Vadodara-390007, India</p>
           </div>

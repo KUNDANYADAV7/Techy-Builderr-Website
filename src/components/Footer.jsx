@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
 import { FaArrowUp } from "react-icons/fa";
-import { Link } from "react-scroll";
+import { Link, scroller } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 import {
   FaFacebook,
   FaLinkedin,
@@ -37,6 +38,23 @@ const Footer = () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
+
+
+  const handleScrollToServices = () => {
+    if (location.pathname === "/") {
+      // Scroll to services if already on home
+      scroller.scrollTo("services", { smooth: true, offset: -50, duration: 500 });
+    } else {
+      // Navigate to home, then scroll after page loads
+      navigate("/");
+      setTimeout(() => {
+        scroller.scrollTo("services", { smooth: true, offset: -50, duration: 500 });
+      }, 500); // Delay to allow the page to load
+    }
+  };
+  
+  
+
   useEffect(() => {
     AOS.init({
       offset: 200,
@@ -45,6 +63,17 @@ const Footer = () => {
       delay: 100,
     });
   }, []);
+
+
+  const services = [
+    { icon: <FaCode className="text-blue-500" />, text: "Website Development" },
+    { icon: <FaMobileAlt className="text-green-500" />, text: "Mobile App Development" },
+    { icon: <FaChartLine className="text-yellow-500" />, text: "SEO Service" },
+    { icon: <FaBullhorn className="text-purple-500" />, text: "Digital Marketing Service" },
+    { icon: <FaSearch className="text-orange-500" />, text: "Social Media Management" },
+    { icon: <FaPaintBrush className="text-pink-500" />, text: "UI/UX Design" },
+    { icon: <FaServer className="text-teal-500" />, text: "Website Maintenance Service" }, // Ensure text matches exactly
+  ];
 
   return (
     <>
@@ -99,11 +128,17 @@ const Footer = () => {
           </div>
 
           <div className="group flex justify-center items-center gap-3">
-            <FaEnvelope className="text-blue-400 size-6 group-hover:text-blue-500 group-hover:scale-125" />
-            <p className="text-slate-200 group-hover:text-red-400">
-              techybuilderr@gmail.com
-            </p>
-          </div>
+  <FaEnvelope className="text-blue-400 size-6 group-hover:text-blue-500 group-hover:scale-125" />
+  <a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=techybuilderr@gmail.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-slate-200 group-hover:text-red-400"
+  >
+    techybuilderr@gmail.com
+  </a>
+</div>
+
         </div>
 
         <div
@@ -115,49 +150,42 @@ const Footer = () => {
               Our Services
             </h1>
           </div>
-          <Link to="services" spy={true} smooth={true} offset={-50}>
             <div className="flex flex-col gap-2">
-            {[
-  { icon: <FaCode className="text-blue-500" />, text: "Website Development" },
-  { icon: <FaMobileAlt className="text-green-500" />, text: "Mobile App Development" },
-  { icon: <FaChartLine className="text-yellow-500" />, text: "SEO Service" },
-  { icon: <FaBullhorn className="text-purple-500" />, text: "Digital Marketing Service" },
-  { icon: <FaSearch className="text-orange-500" />, text: "Social Media Management" },
-  { icon: <FaPaintBrush className="text-pink-500" />, text: "UI/UX Design" },
-  { icon: <FaServer className="text-teal-500" />, text: "Website Maintenance Service" },
-].map((service, index) => (
-  <Link key={index} to="services" spy={true} smooth={true} offset={-50} className="group flex items-center gap-3 cursor-pointer">
-    <span className="text-xl transition-all duration-300 group-hover:scale-125">
-      {service.icon}
-    </span>
-    <h1 className="text-lg text-white transition-all duration-300 group-hover:text-red-400">
-      {service.text}
-    </h1>
-    <HiArrowRight className="ml-1 text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-hover:text-gray-300" />
-  </Link>
-))}
-
-            </div>
-          </Link>
+      {services.map((service, index) => (
+        <div
+          key={index}
+          onClick={handleScrollToServices}
+          className="group flex items-center gap-3 cursor-pointer"
+        >
+          <span className="text-xl transition-all duration-300 group-hover:scale-125">
+            {service.icon}
+          </span>
+          <h1 className="text-lg text-white transition-all duration-300 group-hover:text-red-400">
+            {service.text}
+          </h1>
+          <HiArrowRight className="ml-1 text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-hover:text-gray-300" />
+        </div>
+      ))}
+    </div>
         </div>
       </footer>
 
       <div className={`bg-black py-6 px-6`}>
         {/* Policy Links */}
         <div className="max-w-[80%] mx-auto flex flex-wrap justify-center md:justify-between items-center text-sm mb-2 gap-x-6">
-          <button
-            onClick={() => navigate('/privacy-policy')}
-            className="hover:underline whitespace-nowrap text-xl text-white"
-          >
-            Privacy Policy
-          </button>
-          
-          <button
-            onClick={() => navigate('/terms-conditions')}
-            className="hover:underline whitespace-nowrap text-xl text-white"
-          >
-            Terms and Conditions
-          </button>
+        <RouterLink
+    to="/privacy-policy"
+    className="hover:underline whitespace-nowrap text-xl text-white"
+  >
+    Privacy Policy
+  </RouterLink>
+
+  <RouterLink
+    to="/terms-conditions"
+    className="hover:underline whitespace-nowrap text-xl text-white"
+  >
+    Terms and Conditions
+  </RouterLink>
         </div>
 
         {/* Divider Line */}
@@ -190,7 +218,7 @@ const Footer = () => {
             <FaYoutube />
           </a>
           <a
-            href="https://wa.me/9826250413"
+            href="https://wa.me/8866646691"
             className="text-green-500 hover:text-green-400 hover:scale-145 transition-transform duration-300"
           >
             <FaWhatsapp />

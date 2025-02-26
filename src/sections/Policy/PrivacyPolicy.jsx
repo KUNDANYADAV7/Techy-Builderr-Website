@@ -72,6 +72,7 @@ const PrivacyPolicy = () => {
         <h2 className="text-xl font-semibold text-gray-700">9. Contact Us</h2>
         <p className="text-gray-600">If you have any questions about this Privacy Policy, please contact us at:</p>
         <p className="text-gray-600 font-bold">TECHY BUILDER</p>
+        <p className="text-gray-600 font-bold">+91 88666 46691</p>
         <p className="text-gray-600 font-bold">techybuilderr@gmail.com</p>
         <p className="text-gray-600 font-bold">34, 3rd floor, Sanket park, Iskcon mandir, Harinagar, Vadodara-390007, India</p>
       </section>

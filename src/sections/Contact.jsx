@@ -220,7 +220,13 @@ const Contact = () => {
         {/* Email */}
         <div className="flex items-center gap-4">
           <FaEnvelope className="text-[#000045] text-2xl" />
-          <span className="text-lg text-black">techybuilderr@gmail.com</span>
+          <span className="text-lg text-black"><a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=techybuilderr@gmail.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    techybuilderr@gmail.com
+  </a></span>
         </div>
 
         {/* Address */}

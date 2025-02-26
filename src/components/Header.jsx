@@ -100,7 +100,7 @@ const Header = () => {
       className="bg-black  text-white flex justify-between items-center gap-4 lg:px-20 px-4 py-3 sticky top-0 z-30"
     >
       {/* Logo */}
-      <div id="logo" className="flex items-center max-h-[100px]">
+      <div id="logo" onClick={() => navigate("/")} className="flex items-center max-h-[100px]">
         <img
           src={logon1}
           alt="company logo"
