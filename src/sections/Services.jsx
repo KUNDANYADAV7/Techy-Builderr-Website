@@ -60,7 +60,7 @@ const Services = () => {
     {service.map((item, index) => (
       <div
         key={index}
-        className={`bg-[#000045] text-white min-h-[320px] w-full max-w-[350px] md:max-w-[400px] lg:max-w-[440px] 
+        className={`bg-[#000045] text-white min-h-[320px] w-full max-w-[270px] md:max-w-[400px] lg:max-w-[440px] 
                     px-4 md:px-6 py-6 flex-shrink-0 flex flex-col justify-between items-start 
                     rounded-xl border-b-[4px] border-red-600 transition-all duration-300 cursor-pointer mx-2 md:mx-4 
                     hover:bg-[linear-gradient(135deg,#93a5cf_10%,#e4efe9_100%)] hover:text-black`}
