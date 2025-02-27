@@ -2,7 +2,7 @@ import React from "react";
 import About from "./sections/About";
 import Services from "./sections/Services";
 import "react-toastify/dist/ReactToastify.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import HomeMain from "./sections/HomeMain";
 import Layout from "./sections/Layout";
 import AboutDesc from "./sections/AboutDesc";
@@ -23,7 +23,7 @@ const App = () => {
               <Route path="/" element={<HomeMain />} />
               <Route path="/aboutdescription" element={<AboutDesc />} />
               <Route path="/about" element={<About />} />
-              <Route path="/services/:name" element={<HomeMain />} /> 
+              {/* <Route path="/services/:name" element={<HomeMain />} />  */}
               <Route path="/services" element={<Services />} />
               {/* <Route exact path="/blogs" element={<Blogs />} /> */}
               <Route exact path="/blog/:id" element={<Detail />} />
