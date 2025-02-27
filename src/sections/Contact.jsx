@@ -9,6 +9,22 @@ import axios from "axios";
 
 const Contact = () => {
 
+  const openGmail = () => {
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    // For Android devices, use the Gmail intent URL scheme.
+    if (/android/i.test(userAgent)) {
+      window.location.href = "intent://compose?to=techybuilderr@gmail.com#Intent;package=com.google.android.gm;scheme=mailto;end;";
+    }
+    // For iOS devices, use the Gmail URL scheme.
+    else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+      window.location.href = "googlegmail://co?to=techybuilderr@gmail.com";
+    }
+    // Fallback for desktop or when detection fails.
+    else {
+      window.open("https://mail.google.com/mail/?view=cm&fs=1&to=techybuilderr@gmail.com", "_blank");
+    }
+  };
+
   // Form state
   const [formData, setFormData] = useState({
     name: "",
@@ -221,12 +237,13 @@ const Contact = () => {
         <div className="flex items-center gap-4">
           <FaEnvelope className="text-[#000045] text-2xl" />
           <span className="text-lg text-black"><a
-    href="https://mail.google.com/mail/?view=cm&fs=1&to=techybuilderr@gmail.com"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    techybuilderr@gmail.com
-  </a></span>
+  href="#"
+  onClick={(e) => {
+    e.preventDefault();
+    openGmail();
+  }}
+>techybuilderr@gmail.com</a>
+  </span>
         </div>
 
         {/* Address */}

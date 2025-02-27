@@ -28,6 +28,22 @@ import { useLocation } from "react-router-dom";
 
 const Footer = () => {
 
+  const openGmail = () => {
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    // For Android devices, use the Gmail intent URL scheme.
+    if (/android/i.test(userAgent)) {
+      window.location.href = "intent://compose?to=techybuilderr@gmail.com#Intent;package=com.google.android.gm;scheme=mailto;end;";
+    }
+    // For iOS devices, use the Gmail URL scheme.
+    else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+      window.location.href = "googlegmail://co?to=techybuilderr@gmail.com";
+    }
+    // Fallback for desktop or when detection fails.
+    else {
+      window.open("https://mail.google.com/mail/?view=cm&fs=1&to=techybuilderr@gmail.com", "_blank");
+    }
+  };
+
   const navigate = useNavigate();
 
   const location = useLocation();
@@ -129,14 +145,14 @@ const Footer = () => {
 
           <div className="group flex justify-center items-center gap-3">
   <FaEnvelope className="text-blue-400 size-6 group-hover:text-blue-500 group-hover:scale-125" />
-  <a
-    href="https://mail.google.com/mail/?view=cm&fs=1&to=techybuilderr@gmail.com"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-slate-200 group-hover:text-red-400"
-  >
-    techybuilderr@gmail.com
-  </a>
+<a
+  href="#"
+  onClick={(e) => {
+    e.preventDefault();
+    openGmail();
+  }}
+  className="text-slate-200 group-hover:text-red-400"
+>techybuilderr@gmail.com</a>
 </div>
 
         </div>
