@@ -225,7 +225,7 @@ const Car = () => {
         </button>
         
 
-        <div className="relative w-full overflow-hidden flex justify-center items-center mx-auto max-w-[100%] sm:max-w-[85%] lg:max-w-[90%] min-h-[30vh]  sm:min-h-[75vh] lg:min-h-[85vh]">
+        <div className="relative w-full overflow-hidden flex justify-center items-center mx-auto max-w-[100%] sm:max-w-[85%] lg:max-w-[90%] min-h-[35vh]  sm:min-h-[75vh] lg:min-h-[85vh]">
           <AnimatePresence initial={false} custom={direction}>
             <motion.div
               key={imageCount}
