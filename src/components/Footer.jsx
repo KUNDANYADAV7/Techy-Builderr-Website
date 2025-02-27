@@ -33,7 +33,7 @@ const Footer = () => {
   const location = useLocation();
 
   const handleScroll = () => {
-    const targetId = location.pathname === "/aboutdesc" ? "about-desc" : "car";
+    const targetId = location.pathname === "/aboutdesc" ? "about-desc" : ".";
     document.getElementById(targetId)?.scrollIntoView({ behavior: "smooth" }) ||
       window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -46,7 +46,7 @@ const Footer = () => {
       scroller.scrollTo("services", { smooth: true, offset: -50, duration: 500 });
     } else {
       // Navigate to home, then scroll after page loads
-      navigate("/");
+      navigate("/#services");
       setTimeout(() => {
         scroller.scrollTo("services", { smooth: true, offset: -50, duration: 500 });
       }, 500); // Delay to allow the page to load

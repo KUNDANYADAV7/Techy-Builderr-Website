@@ -4,6 +4,7 @@ import { FaXmark, FaBars } from "react-icons/fa6";
 import { useLocation, useNavigate } from "react-router-dom";
 import EnquiryForm from "../sections/EnquiryForm";
 import logon1 from "../assets/images/logo/logonew.png";
+import { Link as RouterLink } from "react-router-dom";
 
 const Header = () => {
   const [isFormOpen, setFormOpen] = useState(false);
@@ -33,6 +34,10 @@ const Header = () => {
     if (location.pathname !== "/") {
       navigate("/"); // Navigate to home if not already there
     }
+
+
+    // Update the URL with the selected section
+  navigate(`/#${section}`, { replace: true });
 
     // After navigating to '/' page, scroll to the desired section
     setTimeout(() => {
@@ -86,7 +91,7 @@ const Header = () => {
   }, []);
 
   const navItems = [
-    { link: "Home", path: "car", page: "/" },
+    { link: "Home", path: ".", page: "/" },
     { link: "About", path: "about", page: "/" },
     { link: "Services", path: "services", page: "/" },
     { link: "Clients", path: "clients", page: "/" },
@@ -100,6 +105,7 @@ const Header = () => {
       className="bg-black  text-white flex justify-between items-center gap-4 lg:px-20 px-4 py-3 sticky top-0 z-30"
     >
       {/* Logo */}
+      <RouterLink to='/'>
       <div id="logo" onClick={() => navigate("/")} className="flex items-center max-h-[100px]">
         <img
           src={logon1}
@@ -107,6 +113,7 @@ const Header = () => {
           className="lg:w-[200px] w-[170px] h-auto bg-transparent"
         />
       </div>
+      </RouterLink>
 
       {/* Desktop Navigation */}
       <ul className="lg:flex justify-center items-center gap-8 hidden">

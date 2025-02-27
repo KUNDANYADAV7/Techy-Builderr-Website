@@ -51,7 +51,7 @@ const About = () => {
           Maintenance. With a focus on innovation and excellence, we transform
           your vision into reality.
         </p>
-        <Link to="/aboutdesc">
+        <Link to="/aboutdescription">
           <button
             className="bg-[#2a52be] text-lg py-3 px-6 font-semibold rounded-lg cursor-pointer transform hover:scale-105 transition-transform duration-300 text-white md:mt-5 mt-5"
             // onClick={navigate('/aboutdesc')}
