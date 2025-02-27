@@ -12,6 +12,7 @@ import AllBlogs from "./sections/AllBlogs";
 import PrivacyPolicy from "./sections/Policy/PrivacyPolicy";
 import TermsAndCon from "./sections/Policy/TermsCon";
 import { ToastContainer } from "react-toastify";
+import NotFound from "./sections/NotFound";
 
 const App = () => {
   return (
@@ -30,6 +31,9 @@ const App = () => {
               <Route path="/all-blogs" element={<AllBlogs />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/terms-conditions" element={<TermsAndCon />} />
+
+              {/* 404 Page */}
+              <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>
         </Router>
