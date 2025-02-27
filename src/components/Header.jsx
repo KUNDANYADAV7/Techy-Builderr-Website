@@ -181,12 +181,13 @@ const Header = () => {
       </div>
 
       {/* Enquiry Form Toggle Button */}
-      <button
-        onClick={handleEnquiryFormToggle}
-        className="bg-[#2a52be] text-lg py-3 px-4 font-semibold rounded-lg cursor-pointer transform hover:scale-105 transition-transform duration-300 text-white"
-      >
-        Enquire Now
-      </button>
+<button
+  onClick={handleEnquiryFormToggle}
+  className="bg-[#2a52be] text-lg py-2 md:py-3 px-4 font-semibold rounded-lg inline-flex items-center cursor-pointer transform hover:scale-105 transition-transform duration-300 text-white whitespace-nowrap"
+>
+  Enquire Now
+</button>
+
 
       {/* Enquiry Form Component */}
       {isFormOpen && (
