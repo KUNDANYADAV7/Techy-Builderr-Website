@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 const PrivacyPolicy = () => {
   useEffect(() => {
-    // Ensure the page scrolls to the top when the component loads
+    // Ensure the page scrolls to the top when the component
     window.scrollTo(0, 0);
   }, []);
 
