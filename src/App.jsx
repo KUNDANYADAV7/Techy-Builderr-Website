@@ -2,7 +2,7 @@ import React from "react";
 import About from "./sections/About";
 import Services from "./sections/Services";
 import "react-toastify/dist/ReactToastify.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import HomeMain from "./sections/HomeMain";
 import Layout from "./sections/Layout";
 import AboutDesc from "./sections/AboutDesc";
