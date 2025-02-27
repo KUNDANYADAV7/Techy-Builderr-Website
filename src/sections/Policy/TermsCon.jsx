@@ -6,6 +6,24 @@ const TermsAndCon = () => {
         // Ensure the page scrolls to the top when the component loads
         window.scrollTo(0, 0);
       }, []);
+
+
+      const openGmail = () => {
+        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        // For Android devices, use the Gmail intent URL scheme.
+        if (/android/i.test(userAgent)) {
+          window.location.href = "intent://compose?to=techybuilderr@gmail.com#Intent;package=com.google.android.gm;scheme=mailto;end;";
+        }
+        // For iOS devices, use the Gmail URL scheme.
+        else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+          window.location.href = "googlegmail://co?to=techybuilderr@gmail.com";
+        }
+        // Fallback for desktop or when detection fails.
+        else {
+          window.open("https://mail.google.com/mail/?view=cm&fs=1&to=techybuilderr@gmail.com", "_blank");
+        }
+      };
+
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <div className="max-w-4xl w-full bg-white shadow-lg rounded-lg p-6 md:p-10">
@@ -15,7 +33,9 @@ const TermsAndCon = () => {
         <div className="space-y-6 text-gray-700">
           <div>
             <h2 className="text-xl font-semibold">1. Introduction</h2>
-            <p>Welcome to <span className="font-bold">TECHY BUILDER.</span> By accessing or using our website [Your Website URL], you agree to comply with and be bound by these Terms and Conditions. If you do not agree with any part of these terms, you should not use our website.</p>
+            <p>Welcome to <span className="font-bold">TECHY BUILDER.</span> By accessing or using our website <a href="https://www.techybuilder.in/" target="_blank" rel="noopener noreferrer" className='text-blue-700 underline hover:text-blue-800'>
+      https://www.techybuilder.in/
+    </a>, you agree to comply with and be bound by these Terms and Conditions. If you do not agree with any part of these terms, you should not use our website.</p>
           </div>
           
           <div>
@@ -59,7 +79,14 @@ const TermsAndCon = () => {
             <p>If you have any questions about these Terms and Conditions, please contact us at:</p>
             <p className="font-semibold">TECHY BUILDER</p>
             <p className="font-semibold">+91 88666 46691</p>
-            <p className="font-semibold">techybuilderr@gmail.com</p>
+            <a
+  href="#"
+  onClick={(e) => {
+    e.preventDefault();
+    openGmail();
+  }}
+  className="text-blue-700 hover:text-blue-800 hover:underline inline-block"
+>techybuilderr@gmail.com</a>
             <p className="font-semibold">34, 3rd floor, Sanket park, Iskcon mandir, Harinagar, Vadodara-390007, India</p>
           </div>
         </div>
