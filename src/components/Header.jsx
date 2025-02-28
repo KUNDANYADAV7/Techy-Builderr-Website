@@ -288,7 +288,7 @@ const Header = () => {
   }, []);
 
   const navItems = [
-    { link: "Home", path: ".", page: "/" },
+    { link: "Home", path: "home", page: "/" },
     { link: "About", path: "about", page: "/" },
     { link: "Services", path: "services", page: "/" },
     { link: "Clients", path: "clients", page: "/" },

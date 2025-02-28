@@ -215,7 +215,7 @@ const Car = () => {
   };
 
   return (
-    <main id="." className="relative w-full flex flex-col items-center bg-white text-white mb-0">
+    <main id="home" className="relative w-full flex flex-col items-center bg-white text-white mb-0">
       <div className="w-full flex items-center justify-center gap-4 sm:gap-8 px-4 sm:px-8">
         <button
           onClick={() => changeImage(imageCount - 1, -1)}

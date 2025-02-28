@@ -24,29 +24,29 @@ const blogData = [
     description: `
     <h1 style="color: #0073e6;">How Cloud Technology is Transforming Business</h1>
   
-    <h2 style="color: #333;">Introduction</h2>
-    <p style="color: #555;">Cloud computing has revolutionized the way businesses operate, offering enhanced scalability, security, and efficiency. Organizations across industries are leveraging cloud technology to drive innovation, improve operations, and stay competitive.</p>
+
+    <p style="color: black;">Cloud computing has revolutionized the way businesses operate, offering enhanced scalability, security, and efficiency. Organizations across industries are leveraging cloud technology to drive innovation, improve operations, and stay competitive.</p>
   
     <h2 style="color: #333;">Key Benefits of Cloud Technology in Business</h2>
   
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>🚀 Scalability & Flexibility – Scale resources up or down based on demand.</li>
-      <li>💰 Cost Efficiency – Pay-as-you-go model reduces infrastructure costs.</li>
-      <li>🔒 Enhanced Security – Encryption & multi-factor authentication ensure data safety.</li>
-      <li>🌍 Remote Accessibility – Employees can work from anywhere seamlessly.</li>
-      <li>🤖 AI & Big Data Integration – Enables smart decision-making and real-time analytics.</li>
-      <li>📂 Business Continuity – Cloud backups ensure disaster recovery and minimal downtime.</li>
+    <ul style="color: #0073e6;">
+      <li>🚀 Scalability & Flexibility – <span style="color: black">Scale resources up or down based on demand.</span></li>
+      <li>💰 Cost Efficiency – <span style="color: black">Pay-as-you-go model reduces infrastructure costs.</span></li>
+      <li>🔒 Enhanced Security – <span style="color: black">Encryption & multi-factor authentication ensure data safety.</span></li>
+      <li>🌍 Remote Accessibility – <span style="color: black">Employees can work from anywhere seamlessly.</span></li>
+      <li>🤖 AI & Big Data Integration – <span style="color: black">Enables smart decision-making and real-time analytics.</span></li>
+      <li>📂 Business Continuity – <span style="color: black">Cloud backups ensure disaster recovery and minimal downtime.</span></li>
     </ul>
   
     <h2 style="color: #333;">Future of Cloud Technology</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>☁️ Hybrid Cloud Solutions – Combining public & private clouds for optimized performance.</li>
-      <li>⚡ Edge Computing – Processing data closer to the source for faster operations.</li>
-      <li>🤝 AI-Driven Automation – Enhancing cloud operations through machine learning.</li>
+    <ul style="color: #0073e6;">
+      <li>☁️ Hybrid Cloud Solutions – <span style="color: black">Combining public & private clouds for optimized performance.</span></li>
+      <li>⚡ Edge Computing – <span style="color: black">Processing data closer to the source for faster operations.</span></li>
+      <li>🤝 AI-Driven Automation – <span style="color: black">Enhancing cloud operations through machine learning.</span></li>
     </ul>
   
-    <h2 style="color: #333;">Conclusion</h2>
-    <p style="color: #555;">Adopting cloud technology is no longer an option but a necessity for businesses looking to scale, innovate, and remain competitive in the digital era.</p>
+    <h2 style="color: #0073e6;">Conclusion</h2>
+    <p style="color: black;">Adopting cloud technology is no longer an option but a necessity for businesses looking to scale, innovate, and remain competitive in the digital era.</p>
     `,
     link: "https://example.com/cloud-technology-business"
   },  
@@ -59,31 +59,31 @@ const blogData = [
     description: `
     <h1 style="color: #0073e6;">Why Every Business Needs a Website in 2025</h1>
 
-    <h2 style="color: #333;">Introduction</h2>
-    <p style="color: #555;">In the digital era, having a website is no longer optional—it’s essential. A strong online presence helps businesses establish credibility, attract customers, and stay competitive in a rapidly evolving market.</p>
+    <p style="color: black;">In the digital era, having a website is no longer optional—it’s essential. A strong online presence helps businesses establish credibility, attract customers, and stay competitive in a rapidly evolving market.</p>
 
-    <h2 style="color: #333;">Key Benefits of Having a Business Website</h2>
+    <h2 style="color: #0073e6;">Key Benefits of Having a Business Website</h2>
 
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>🌍 Global Reach – Expand your audience beyond geographical limits.</li>
-      <li>💰 Cost-Effective Marketing – Websites are powerful and affordable promotional tools.</li>
-      <li>🔒 Trust & Credibility – A professional website builds customer confidence.</li>
-      <li>📱 Mobile Accessibility – Ensure users can find you from any device.</li>
-      <li>🚀 SEO & Online Visibility – Rank higher on search engines for more traffic.</li>
-      <li>🛍️ E-commerce Opportunities – Sell products and services 24/7.</li>
-      <li>🎯 Customer Engagement – Interactive features enhance user experience.</li>
+    <ul style="color: #0073e6;">
+      <li>🌍 Global Reach – <span style="color: black">Expand your audience beyond geographical limits.</span></li>
+      <li>💰 Cost-Effective Marketing – <span style="color: black">Websites are powerful and affordable promotional tools.</span></li>
+      <li>🔒 Trust & Credibility – <span style="color: black">A professional website builds customer confidence.</span></li>
+      <li>📱 Mobile Accessibility – <span style="color: black">Ensure users can find you from any device.</span
+      ></li>
+      <li>🚀 SEO & Online Visibility – <span style="color: black">Rank higher on search engines for more traffic.</span></li>
+      <li>🛍️ E-commerce Opportunities – <span style="color: black">Sell products and services 24/7.</span></li>
+      <li>🎯 Customer Engagement – <span style="color: black">Interactive features enhance user experience.</span></li>
     </ul>
 
     <h2 style="color: #333;">Future Trends in Website Development</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>🤖 AI-Powered Websites – Chatbots and automation for better user interaction.</li>
-      <li>⚡ Progressive Web Apps (PWAs) – Faster loading and offline functionality.</li>
-      <li>🔍 Voice Search Optimization – Catering to the growing voice search trend.</li>
-      <li>🎨 Immersive UI/UX Designs – Advanced animations and interactive elements.</li>
+    <ul style="color: #0073e6; ">
+      <li>🤖 AI-Powered Websites – <span style="color: black">Chatbots and automation for better user interaction.</span></li>
+      <li>⚡ Progressive Web Apps (PWAs) – <span style="color: black">Faster loading and offline functionality.</span></li>
+      <li>🔍 Voice Search Optimization – <span style="color: black">Catering to the growing voice search trend.</span></li>
+      <li>🎨 Immersive UI/UX Designs – <span style="color: black">Advanced animations and interactive elements.</span></li>
     </ul>
 
-    <h2 style="color: #333;">Conclusion</h2>
-    <p style="color: #555;">A website is the digital storefront of any business. Investing in a well-optimized, user-friendly website is crucial for growth, visibility, and success in 2025 and beyond.</p>
+    <h2 style="color: #0073e6;">Conclusion</h2>
+    <p style="color: black;">A website is the digital storefront of any business. Investing in a well-optimized, user-friendly website is crucial for growth, visibility, and success in 2025 and beyond.</p>
     `,
     "link": "https://example.com/why-businesses-need-a-website"
 }
@@ -97,37 +97,36 @@ const blogData = [
     description: `
     <h1 style="color: #0073e6;">Custom vs. Template Website: Which One is Right for You?</h1>
 
-    <h2 style="color: #333;">Introduction</h2>
-    <p style="color: #555;">Choosing between a custom-built website and a template-based website is a critical decision for businesses. Each option has its own advantages and drawbacks, depending on budget, scalability, and business goals.</p>
+    <p style="color: black;">Choosing between a custom-built website and a template-based website is a critical decision for businesses. Each option has its own advantages and drawbacks, depending on budget, scalability, and business goals.</p>
 
     <h2 style="color: #333;">Key Differences Between Custom and Template Websites</h2>
 
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>🎨 Customization & Uniqueness** – Custom websites offer full design flexibility, while templates have limited customization.</li>
-      <li>💰 Cost & Budget** – Template websites are budget-friendly, whereas custom-built sites require a higher investment.</li>
-      <li>🚀 Performance & Speed** – Custom sites are optimized for speed, while templates may have unnecessary code bloat.</li>
-      <li>🔗 Scalability & Future Growth** – Custom websites can evolve with your business, while templates may have limitations.</li>
-      <li>🔒 Security & Support** – Custom development ensures enhanced security, whereas templates may depend on third-party updates.</li>
+    <ul style="color: #0073e6;">
+      <li>🎨 Customization & Uniqueness – <span style="color: black">Custom websites offer full design flexibility, while templates have limited customization.</span></li>
+      <li>💰 Cost & Budget – <span style="color: black">Template websites are budget-friendly, whereas custom-built sites require a higher investment.</span></li>
+      <li>🚀 Performance & Speed – <span style="color: black">Custom sites are optimized for speed, while templates may have unnecessary code bloat.</span></li>
+      <li>🔗 Scalability & Future Growth – <span style="color: black">Custom websites can evolve with your business, while templates may have limitations.</span></li>
+      <li>🔒 Security & Support – <span style="color: black">Custom development ensures enhanced security, whereas templates may depend on third-party updates.</span></li>
     </ul>
 
-    <h2 style="color: #333;">When to Choose a Custom Website?</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
+    <h2 style="color: #0073e6;">When to Choose a Custom Website?</h2>
+    <ul style="color: black;">
       <li>✅ Your business needs a unique brand identity.</li>
       <li>✅ You require advanced features and integrations.</li>
       <li>✅ SEO optimization and high-speed performance are crucial.</li>
       <li>✅ You want complete control over design and functionality.</li>
     </ul>
 
-    <h2 style="color: #333;">When to Choose a Template Website?</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
+    <h2 style="color: #0073e6;">When to Choose a Template Website?</h2>
+    <ul style="color: black;">
       <li>✅ You need a quick and budget-friendly solution.</li>
       <li>✅ Your website does not require complex features.</li>
       <li>✅ You have minimal technical expertise.</li>
       <li>✅ You want an easy-to-use drag-and-drop website builder.</li>
     </ul>
 
-    <h2 style="color: #333;">Conclusion</h2>
-    <p style="color: #555;">Both custom and template websites have their place in the digital world. The right choice depends on your business needs, budget, and long-term growth plans. Investing in the right website solution can significantly impact your online success.</p>
+    <h2 style="color: #0073e6;">Conclusion</h2>
+    <p style="color: black;">Both custom and template websites have their place in the digital world. The right choice depends on your business needs, budget, and long-term growth plans. Investing in the right website solution can significantly impact your online success.</p>
     `,
     link: "https://example.com/react-vs-vue"
   },
@@ -140,32 +139,31 @@ const blogData = [
     description: `
     <h1 style="color: #0073e6;">Why Mobile Applications are Essential for Businesses in 2025</h1>
 
-    <h2 style="color: #333;">Introduction</h2>
-    <p style="color: #555;">In today's fast-paced digital world, mobile applications have become a necessity for businesses looking to enhance customer engagement, increase sales, and stay ahead of the competition.</p>
+    <p style="color: black;">In today's fast-paced digital world, mobile applications have become a necessity for businesses looking to enhance customer engagement, increase sales, and stay ahead of the competition.</p>
 
     <h2 style="color: #333;">Key Benefits of Mobile Applications</h2>
 
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>📱 Improved Customer Experience – Faster, more personalized interactions.</li>
-      <li>📈 Higher Engagement – Push notifications keep users informed.</li>
-      <li>💰 Increased Sales – In-app purchases and seamless checkout experiences.</li>
-      <li>🔗 Brand Loyalty – Apps enhance customer retention and user experience.</li>
-      <li>🚀 Competitive Advantage – Stay ahead with innovative mobile solutions.</li>
-      <li>🔒 Enhanced Security – Secure transactions and user data protection.</li>
-      <li>📊 Data Insights – Understand user behavior with in-app analytics.</li>
+    <ul style="color: #0073e6;">
+      <li>📱 Improved Customer Experience – <span style="color: black">Faster, more personalized interactions.</span></li>
+      <li>📈 Higher Engagement – <span style="color: black">Push notifications keep users informed.</span></li>
+      <li>💰 Increased Sales – <span style="color: black">In-app purchases and seamless checkout experiences.</span></li>
+      <li>🔗 Brand Loyalty – <span style="color: black">Apps enhance customer retention and user experience.</span></li>
+      <li>🚀 Competitive Advantage – <span style="color: black">Stay ahead with innovative mobile solutions.</span></li>
+      <li>🔒 Enhanced Security – <span style="color: black">Secure transactions and user data protection.</span></li>
+      <li>📊 Data Insights – <span style="color: black">Understand user behavior with in-app analytics.</span></li>
     </ul>
 
     <h2 style="color: #333;">Future Trends in Mobile Application Development</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>🤖 AI & Machine Learning – Personalized recommendations and automation.</li>
-      <li>⚡ 5G Technology – Faster speeds and enhanced user experience.</li>
-      <li>🌍 Cross-Platform Development – Efficient and cost-effective solutions.</li>
-      <li>🔍 Voice & Gesture Controls – Hands-free, intuitive interactions.</li>
-      <li>💡 Augmented Reality (AR) – Interactive and immersive app experiences.</li>
+    <ul style="color: #0073e6;">
+      <li>🤖 AI & Machine Learning – <span style="color: black">Personalized recommendations and automation.</span></li>
+      <li>⚡ 5G Technology – <span style="color: black">Faster speeds and enhanced user experience.</span></li>
+      <li>🌍 Cross-Platform Development – <span style="color: black">Efficient and cost-effective solutions.</span></li>
+      <li>🔍 Voice & Gesture Controls – <span style="color: black">Hands-free, intuitive interactions.</span></li>
+      <li>💡 Augmented Reality (AR) – <span style="color: black">Interactive and immersive app experiences.</span></li>
     </ul>
 
-    <h2 style="color: #333;">Conclusion</h2>
-    <p style="color: #555;">A mobile application is no longer a luxury but a strategic necessity for businesses aiming to thrive in 2025. Investing in an optimized, user-friendly app can drive growth, engagement, and long-term success.</p>
+    <h2 style="color: #0073e6;">Conclusion</h2>
+    <p style="color: black;">A mobile application is no longer a luxury but a strategic necessity for businesses aiming to thrive in 2025. Investing in an optimized, user-friendly app can drive growth, engagement, and long-term success.</p>
     `,
     link: "https://example.com/seo-optimization"
   },
@@ -178,37 +176,36 @@ const blogData = [
     description:  `
     <h1 style="color: #0073e6;">Email Marketing vs. Social Media: Which Works Better?</h1>
 
-    <h2 style="color: #333;">Introduction</h2>
-    <p style="color: #555;">Digital marketing plays a crucial role in business growth, but choosing between email marketing and social media can be challenging. Both channels have their strengths, depending on audience engagement, cost-effectiveness, and conversion rates.</p>
+    <p style="color: black;">Digital marketing plays a crucial role in business growth, but choosing between email marketing and social media can be challenging. Both channels have their strengths, depending on audience engagement, cost-effectiveness, and conversion rates.</p>
 
     <h2 style="color: #333;">Key Differences Between Email Marketing and Social Media</h2>
 
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>📧 Email Marketing – Direct & Personalized** – Allows targeted communication and higher conversion rates.</li>
-      <li>📱 Social Media – Wider Reach & Engagement** – Increases brand visibility and real-time interaction.</li>
-      <li>💰 Cost & ROI** – Email marketing has a higher ROI, while social media is great for brand awareness.</li>
-      <li>📊 Analytics & Performance Tracking** – Email marketing provides detailed open and click-through rates, while social media focuses on engagement metrics.</li>
-      <li>⚡ Automation & Scalability** – Email campaigns can be automated, whereas social media requires continuous content updates.</li>
+    <ul style="color: #0073e6;">
+      <li>📧 Email Marketing – Direct & Personalized – <span style="color: black">Allows targeted communication and higher conversion rates.</span></li>
+      <li>📱 Social Media – Wider Reach & Engagement – <span style="color: black">Increases brand visibility and real-time interaction.</span></li>
+      <li>💰 Cost & ROI – <span style="color: black">Email marketing has a higher ROI, while social media is great for brand awareness.</span></li>
+      <li>📊 Analytics & Performance Tracking – <span style="color: black">Email marketing provides detailed open and click-through rates, while social media focuses on engagement metrics.</span></li>
+      <li>⚡ Automation & Scalability** – <span style="color: black">Email campaigns can be automated, whereas social media requires continuous content updates.</span></li>
     </ul>
 
-    <h2 style="color: #333;">When to Choose Email Marketing?</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
+    <h2 style="color: #0073e6;">When to Choose Email Marketing?</h2>
+    <ul style="color: black;">
       <li>✅ You want to nurture leads and build customer relationships.</li>
       <li>✅ You need measurable results with high ROI.</li>
       <li>✅ Your business relies on repeat customers and loyalty programs.</li>
       <li>✅ You have a strong email list and segmented audience.</li>
     </ul>
 
-    <h2 style="color: #333;">When to Choose Social Media?</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
+    <h2 style="color: #0073e6;">When to Choose Social Media?</h2>
+    <ul style="color: black;">
       <li>✅ You want to increase brand awareness and audience reach.</li>
       <li>✅ You need real-time interaction with customers.</li>
       <li>✅ Your business relies on viral content and community engagement.</li>
       <li>✅ You want to leverage influencer marketing and paid ads.</li>
     </ul>
 
-    <h2 style="color: #333;">Conclusion</h2>
-    <p style="color: #555;">Both email marketing and social media are powerful tools for digital marketing. The best approach is often a combination of both, leveraging their strengths to maximize engagement and conversions.</p>
+    <h2 style="color: #0073e6;">Conclusion</h2>
+    <p style="color: black;">Both email marketing and social media are powerful tools for digital marketing. The best approach is often a combination of both, leveraging their strengths to maximize engagement and conversions.</p>
     `,
     link: "https://example.com/cybersecurity-tips"
   },
@@ -221,11 +218,10 @@ const blogData = [
     description:  `
     <h1 style="color: #0073e6;">On-Page vs. Off-Page SEO: What's the Difference?</h1>
 
-    <h2 style="color: #333;">Introduction</h2>
-    <p style="color: #555;">SEO (Search Engine Optimization) is essential for improving website visibility and ranking on search engines. It consists of two main strategies: On-Page SEO and Off-Page SEO. Understanding their differences helps in creating a strong digital marketing strategy.</p>
+    <p style="color: black;">SEO (Search Engine Optimization) is essential for improving website visibility and ranking on search engines. It consists of two main strategies: On-Page SEO and Off-Page SEO. Understanding their differences helps in creating a strong digital marketing strategy.</p>
 
-    <h2 style="color: #333;">What is On-Page SEO?</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
+    <h2 style="color: #0073e6;">What is On-Page SEO?</h2>
+    <ul style="color: black;">
       <li>🔍 Keyword Optimization – Using relevant keywords in content, titles, and meta descriptions.</li>
       <li>🖥️ Content Quality – Creating valuable, engaging, and informative content.</li>
       <li>📏 Meta Tags & URLs – Optimizing title tags, descriptions, and SEO-friendly URLs.</li>
@@ -233,8 +229,8 @@ const blogData = [
       <li>⚡ Mobile-Friendliness & Speed – Ensuring fast loading times and responsive design.</li>
     </ul>
 
-    <h2 style="color: #333;">What is Off-Page SEO?</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
+    <h2 style="color: #0073e6;">What is Off-Page SEO?</h2>
+    <ul style="color: black;">
       <li>🔗 Backlinks – Getting high-quality links from authoritative websites.</li>
       <li>📢 Social Signals – Boosting engagement through social media platforms.</li>
       <li>📝 Guest Blogging – Publishing articles on external sites for link-building.</li>
@@ -242,11 +238,11 @@ const blogData = [
       <li>🎯 Local SEO – Optimizing for Google My Business and local search rankings.</li>
     </ul>
 
-    <h2 style="color: #333;">Which One is More Important?</h2>
-    <p style="color: #555;">Both On-Page and Off-Page SEO play a crucial role in ranking a website. On-Page SEO ensures content is optimized for search engines, while Off-Page SEO builds credibility and authority. A successful SEO strategy balances both approaches.</p>
+    <h2 style="color: #0073e6;">Which One is More Important?</h2>
+    <p style="color: black;">Both On-Page and Off-Page SEO play a crucial role in ranking a website. On-Page SEO ensures content is optimized for search engines, while Off-Page SEO builds credibility and authority. A successful SEO strategy balances both approaches.</p>
 
-    <h2 style="color: #333;">Conclusion</h2>
-    <p style="color: #555;">To improve your website’s search ranking, focus on both On-Page and Off-Page SEO techniques. By optimizing content and increasing backlinks, you can enhance visibility and drive organic traffic effectively.</p>
+    <h2 style="color: #0073e6;">Conclusion</h2>
+    <p style="color: black;">To improve your website’s search ranking, focus on both On-Page and Off-Page SEO techniques. By optimizing content and increasing backlinks, you can enhance visibility and drive organic traffic effectively.</p>
     `,
     link: "https://example.com/ui-ux-importance"
   },
@@ -259,28 +255,27 @@ const blogData = [
     description:  `
     <h1 style="color: #0073e6;">Why UX Research is Crucial for Your Website's Success</h1>
 
-    <h2 style="color: #333;">Introduction</h2>
-    <p style="color: #555;">Understanding your users is the foundation of any successful website. UX research uncovers insights into user behavior, preferences, and pain points, ensuring your design truly meets their needs.</p>
+    <p style="color: black;">Understanding your users is the foundation of any successful website. UX research uncovers insights into user behavior, preferences, and pain points, ensuring your design truly meets their needs.</p>
 
-    <h2 style="color: #333;">Key Benefits of UX Research</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>🔍 <b>User Insights</b> – Gain valuable data on user behavior and expectations.</li>
-      <li>🎯 <b>Enhanced Usability</b> – Identify and resolve design issues for a smoother experience.</li>
-      <li>💡 <b>Informed Decision-Making</b> – Base design decisions on real user feedback.</li>
-      <li>🚀 <b>Higher Conversion Rates</b> – Optimize user journeys to boost engagement and sales.</li>
-      <li>🔗 <b>Improved Retention</b> – Create experiences that keep users returning.</li>
+    <h2 style="color: #0073e6;">Key Benefits of UX Research</h2>
+    <ul style="color: #0073e6;">
+      <li>🔍 User Insights – <span style="color: black">Gain valuable data on user behavior and expectations.</span></li>
+      <li>🎯 Enhanced Usability – <span style="color: black">Identify and resolve design issues for a smoother experience.</span></li>
+      <li>💡 Informed Decision-Making – <span style="color: black">Base design decisions on real user feedback.</span></li>
+      <li>🚀 Higher Conversion Rates – <span style="color: black">Optimize user journeys to boost engagement and sales.</span></li>
+      <li>🔗 Improved Retention – <span style="color: black">Create experiences that keep users returning.</span></li>
     </ul>
 
-    <h2 style="color: #333;">Effective UX Research Methods</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>📊 <b>Surveys & Questionnaires</b> – Collect quantitative insights from a broad audience.</li>
-      <li>👥 <b>User Interviews</b> – Gather in-depth qualitative feedback.</li>
-      <li>👀 <b>Usability Testing</b> – Observe users interacting with your website in real time.</li>
-      <li>🛠️ <b>A/B Testing</b> – Experiment with design variations to find the best solutions.</li>
+    <h2 style="color: #0073e6;">Effective UX Research Methods</h2>
+    <ul style="color: #0073e6;">
+      <li>📊 Surveys & Questionnaires – <span style="color: black">Collect quantitative insights from a broad audience.</span></li>
+      <li>👥 User Interviews – <span style="color: black">Gather in-depth qualitative feedback.</span></li>
+      <li>👀 Usability Testing – <span style="color: black">Observe users interacting with your website in real time.</span></li>
+      <li>🛠️ A/B Testing – <span style="color: black">Experiment with design variations to find the best solutions.</span></li>
     </ul>
 
-    <h2 style="color: #333;">Conclusion</h2>
-    <p style="color: #555;">Investing in UX research is essential for creating a website that not only looks great but also delivers a seamless user experience. By understanding your audience, you can design a site that drives engagement, satisfaction, and business success.</p>
+    <h2 style="color: #0073e6;">Conclusion</h2>
+    <p style="color: black;">Investing in UX research is essential for creating a website that not only looks great but also delivers a seamless user experience. By understanding your audience, you can design a site that drives engagement, satisfaction, and business success.</p>
     `
   },
   {
@@ -292,28 +287,27 @@ const blogData = [
     description: `
     <h1 style="color: #0073e6;">AI for Personal Productivity: How to Automate Your Daily Tasks</h1>
 
-    <h2 style="color: #333;">Introduction</h2>
-    <p style="color: #555;">Artificial Intelligence is transforming the way we work by automating routine tasks, optimizing decision-making, and enabling personalized workflows. By leveraging AI tools, individuals can boost efficiency and focus on higher-level, creative pursuits.</p>
+    <p style="color: black;">Artificial Intelligence is transforming the way we work by automating routine tasks, optimizing decision-making, and enabling personalized workflows. By leveraging AI tools, individuals can boost efficiency and focus on higher-level, creative pursuits.</p>
 
-    <h2 style="color: #333;">Key Benefits of AI for Productivity</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>🤖 <b>Task Automation</b> – Reduce manual workload and free up time for strategic initiatives.</li>
-      <li>⏱️ <b>Enhanced Efficiency</b> – Streamline repetitive processes and save valuable time.</li>
-      <li>📊 <b>Data-Driven Insights</b> – Utilize AI analytics to make informed, real-time decisions.</li>
-      <li>💡 <b>Boosted Creativity</b> – With routine tasks automated, focus on innovation and problem-solving.</li>
-      <li>🔗 <b>Seamless Integration</b> – Integrate AI tools with existing systems to create a unified workflow.</li>
+    <h2 style="color: #0073e6;">Key Benefits of AI for Productivity</h2>
+    <ul style="color: #0073e6;">
+      <li>🤖 Task Automation – <span style="color: black">Reduce manual workload and free up time for strategic initiatives.</span></li>
+      <li>⏱️ Enhanced Efficiency – <span style="color: black">Streamline repetitive processes and save valuable time.</span></li>
+      <li>📊 Data-Driven Insights – <span style="color: black">Utilize AI analytics to make informed, real-time decisions.</span></li>
+      <li>💡 Boosted Creativity – <span style="color: black">With routine tasks automated, focus on innovation and problem-solving.</span></li>
+      <li>🔗 Seamless Integration – <span style="color: black">Integrate AI tools with existing systems to create a unified workflow.</span></li>
     </ul>
 
-    <h2 style="color: #333;">Effective AI Tools and Techniques</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>🗂️ <b>Virtual Assistants</b> – Manage schedules, emails, and reminders efficiently.</li>
-      <li>📝 <b>Automation Platforms</b> – Automate routine tasks to enhance productivity.</li>
-      <li>📈 <b>Predictive Analytics</b> – Forecast trends and optimize strategies using machine learning.</li>
-      <li>🤝 <b>Collaborative AI</b> – Enhance teamwork with AI-driven collaboration tools.</li>
+    <h2 style="color: #0073e6;">Effective AI Tools and Techniques</h2>
+    <ul style="color: #0073e6;">
+      <li>🗂️ Virtual Assistants – <span style="color: black">Manage schedules, emails, and reminders efficiently.</span></li>
+      <li>📝 Automation Platforms – <span style="color: black">Automate routine tasks to enhance productivity.</span></li>
+      <li>📈 Predictive Analytics – <span style="color: black">Forecast trends and optimize strategies using machine learning.</span></li>
+      <li>🤝 Collaborative AI – <span style="color: black">Enhance teamwork with AI-driven collaboration tools.</span></li>
     </ul>
 
-    <h2 style="color: #333;">Conclusion</h2>
-    <p style="color: #555;">Adopting AI for personal productivity is no longer a futuristic concept but a practical solution for today’s fast-paced world. By automating everyday tasks and leveraging smart insights, you can transform your workflow and focus on what truly matters.</p>
+    <h2 style="color: #0073e6;">Conclusion</h2>
+    <p style="color: black;">Adopting AI for personal productivity is no longer a futuristic concept but a practical solution for today’s fast-paced world. By automating everyday tasks and leveraging smart insights, you can transform your workflow and focus on what truly matters.</p>
   `,
     link: "https://example.com/python-data-science"
   },
@@ -326,28 +320,27 @@ const blogData = [
     description: `
     <h1 style="color: #0073e6;">The Importance of Technical Support for Business in 2025</h1>
 
-    <h2 style="color: #333;">Introduction</h2>
-    <p style="color: #555;">In today's fast-paced business environment, reliable technical support is essential to maintain smooth operations and minimize downtime. As companies increasingly rely on digital infrastructure, robust technical support becomes a cornerstone for productivity and customer satisfaction.</p>
+    <p style="color: black;">In today's fast-paced business environment, reliable technical support is essential to maintain smooth operations and minimize downtime. As companies increasingly rely on digital infrastructure, robust technical support becomes a cornerstone for productivity and customer satisfaction.</p>
 
-    <h2 style="color: #333;">Key Benefits of Technical Support</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>⏱️ <b>Rapid Issue Resolution</b> – Quick response times reduce downtime and ensure business continuity.</li>
-      <li>📈 <b>Enhanced Productivity</b> – Proactive support allows employees to focus on core tasks without technical interruptions.</li>
-      <li>🤝 <b>Improved Customer Satisfaction</b> – Reliable support builds trust and strengthens customer relationships.</li>
-      <li>🔒 <b>System Security</b> – Regular maintenance and updates safeguard systems against cyber threats.</li>
-      <li>🚀 <b>Scalability & Innovation</b> – A skilled support team helps implement new technologies and adapt to business growth.</li>
+    <h2 style="color: #0073e6;">Key Benefits of Technical Support</h2>
+    <ul style="color: #0073e6;">
+      <li>⏱️ Rapid Issue Resolution – <span style="color: black">Quick response times reduce downtime and ensure business continuity.</span></li>
+      <li>📈 Enhanced Productivity – <span style="color: black">Proactive support allows employees to focus on core tasks without technical interruptions.</span></li>
+      <li>🤝 Improved Customer Satisfaction – <span style="color: black">Reliable support builds trust and strengthens customer relationships.</span></li>
+      <li>🔒 System Security – <span style="color: black">Regular maintenance and updates safeguard systems against cyber threats.</span></li>
+      <li>🚀 Scalability & Innovation – <span style="color: black">A skilled support team helps implement new technologies and adapt to business growth.</span></li>
     </ul>
 
-    <h2 style="color: #333;">Effective Technical Support Strategies</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>24/7 Availability – Round-the-clock support to handle emergencies and ensure continuous operations.</li>
-      <li>Multichannel Assistance – Support via phone, email, live chat, and ticket systems for seamless communication.</li>
-      <li>Proactive Monitoring – Regular system checks to identify and address potential issues before they escalate.</li>
-      <li>Skilled Support Teams – Expert professionals equipped to manage diverse technical challenges.</li>
+    <h2 style="color: #0073e6;">Effective Technical Support Strategies</h2>
+    <ul style="color: #0073e6;">
+      <li>24/7 Availability – <span style="color: black">Round-the-clock support to handle emergencies and ensure continuous operations.</span></li>
+      <li>Multichannel Assistance – <span style="color: black">Support via phone, email, live chat, and ticket systems for seamless communication.</span></li>
+      <li>Proactive Monitoring – <span style="color: black">Regular system checks to identify and address potential issues before they escalate.</span></li>
+      <li>Skilled Support Teams – <span style="color: black">Expert professionals equipped to manage diverse technical challenges.</span></li>
     </ul>
 
-    <h2 style="color: #333;">Conclusion</h2>
-    <p style="color: #555;">Investing in robust technical support is vital for businesses aiming to thrive in 2025. With effective support strategies in place, companies can minimize disruptions, optimize performance, and secure long-term success in an increasingly digital world.</p>
+    <h2 style="color: #0073e6;">Conclusion</h2>
+    <p style="color: black;">Investing in robust technical support is vital for businesses aiming to thrive in 2025. With effective support strategies in place, companies can minimize disruptions, optimize performance, and secure long-term success in an increasingly digital world.</p>
   `,
     link: "https://example.com/blockchain-guide"
   },
@@ -360,28 +353,27 @@ const blogData = [
     description:  `
     <h1 style="color: #0073e6;">The Power of Social Media Marketing: How it Can Skyrocket Your Business</h1>
 
-    <h2 style="color: #333;">Introduction</h2>
-    <p style="color: #555;">Social Media Marketing has revolutionized the way businesses connect with their audiences. With billions of active users across various platforms, leveraging social media effectively can dramatically increase brand visibility and customer engagement.</p>
+    <p style="color: black;">Social Media Marketing has revolutionized the way businesses connect with their audiences. With billions of active users across various platforms, leveraging social media effectively can dramatically increase brand visibility and customer engagement.</p>
 
-    <h2 style="color: #333;">Key Benefits of Social Media Marketing</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>📣 <b>Increased Brand Awareness</b> – Connect with a wide audience and build a strong brand identity.</li>
-      <li>💬 <b>Enhanced Engagement</b> – Interact directly with customers to foster loyalty and trust.</li>
-      <li>📈 <b>Boosted Conversion Rates</b> – Turn engagement into tangible business results with targeted strategies.</li>
-      <li>🔍 <b>Valuable Insights</b> – Leverage analytics to understand customer behavior and refine campaigns.</li>
-      <li>🚀 <b>Cost-Effective Marketing</b> – Achieve significant reach without extensive marketing budgets.</li>
+    <h2 style="color: #0073e6;">Key Benefits of Social Media Marketing</h2>
+    <ul style="color: #0073e6;">
+      <li>📣 Increased Brand Awareness – <span style="color: black">Connect with a wide audience and build a strong brand identity.</span></li>
+      <li>💬 Enhanced Engagement – <span style="color: black">Interact directly with customers to foster loyalty and trust.</span></li>
+      <li>📈 Boosted Conversion Rates – <span style="color: black">Turn engagement into tangible business results with targeted strategies.</span></li>
+      <li>🔍 Valuable Insights – <span style="color: black">Leverage analytics to understand customer behavior and refine campaigns.</span></li>
+      <li>🚀 Cost-Effective Marketing – <span style="color: black">Achieve significant reach without extensive marketing budgets.</span></li>
     </ul>
 
-    <h2 style="color: #333;">Effective Social Media Strategies</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>🎯 <b>Targeted Advertising</b> – Use advanced targeting to reach your ideal audience.</li>
-      <li>🤝 <b>Influencer Collaborations</b> – Partner with influencers to expand your reach.</li>
-      <li>📅 <b>Consistent Content</b> – Maintain a steady flow of engaging content to keep your audience informed.</li>
-      <li>💡 <b>Creative Campaigns</b> – Develop innovative campaigns that resonate with your audience.</li>
+    <h2 style="color: #0073e6;">Effective Social Media Strategies</h2>
+    <ul style="color: #0073e6;">
+      <li>🎯 Targeted Advertising – <span style="color: black">Use advanced targeting to reach your ideal audience.</span></li>
+      <li>🤝 Influencer Collaborations – <span style="color: black">Partner with influencers to expand your reach.</span></li>
+      <li>📅 Consistent Content – <span style="color: black">Maintain a steady flow of engaging content to keep your audience informed.</span></li>
+      <li>💡 Creative Campaigns – <span style="color: black">Develop innovative campaigns that resonate with your audience.</span></li>
     </ul>
 
-    <h2 style="color: #333;">Conclusion</h2>
-    <p style="color: #555;">Harnessing the power of social media marketing is crucial for any business aiming to thrive in the digital era. By implementing effective strategies, you can dramatically boost your brand’s reach and drive sustainable growth.</p>
+    <h2 style="color: #0073e6;">Conclusion</h2>
+    <p style="color: black;">Harnessing the power of social media marketing is crucial for any business aiming to thrive in the digital era. By implementing effective strategies, you can dramatically boost your brand’s reach and drive sustainable growth.</p>
   `
   },
   {
@@ -393,27 +385,26 @@ const blogData = [
     description:  `
     <h1 style="color: #0073e6;">Website Maintenance Checklist: Keep Your Site Secure & Optimized</h1>
 
-    <h2 style="color: #333;">Introduction</h2>
-    <p style="color: #555;">Regular website maintenance is essential to ensure your site remains secure, optimized, and user-friendly. Routine updates, security checks, and performance monitoring can help prevent downtime and enhance the overall user experience.</p>
+    <p style="color: black;">Regular website maintenance is essential to ensure your site remains secure, optimized, and user-friendly. Routine updates, security checks, and performance monitoring can help prevent downtime and enhance the overall user experience.</p>
 
-    <h2 style="color: #333;">Key Components of Website Maintenance</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>🔒 <b>Security Updates</b> – Implement regular patches and monitor for vulnerabilities.</li>
-      <li>⚡ <b>Performance Optimization</b> – Improve load times and responsiveness by optimizing images, code, and databases.</li>
-      <li>🛠️ <b>Content Updates</b> – Keep your content fresh and relevant to improve SEO and user engagement.</li>
-      <li>🔄 <b>Backup & Recovery</b> – Regularly back up your site and have a recovery plan in place.</li>
-      <li>📊 <b>Analytics Monitoring</b> – Track performance metrics and user behavior to inform improvements.</li>
+    <h2 style="color: #0073e6;">Key Components of Website Maintenance</h2>
+    <ul style="color: #0073e6;">
+      <li>🔒 Security Updates – <span style="color: black">Implement regular patches and monitor for vulnerabilities.</span></li>
+      <li>⚡ Performance Optimization – <span style="color: black">Improve load times and responsiveness by optimizing images, code, and databases.</span></li>
+      <li>🛠️ Content Updates – <span style="color: black">Keep your content fresh and relevant to improve SEO and user engagement.</span></li>
+      <li>🔄 Backup & Recovery – <span style="color: black">Regularly back up your site and have a recovery plan in place.</span></li>
+      <li>📊 Analytics Monitoring – <span style="color: black">Track performance metrics and user behavior to inform improvements.</span></li>
     </ul>
 
-    <h2 style="color: #333;">Best Practices for Website Maintenance</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>🗓️ <b>Scheduled Reviews</b> – Set up regular maintenance schedules and audits.</li>
-      <li>🔄 <b>Automated Monitoring</b> – Use tools to automate security scans and performance monitoring.</li>
-      <li>📧 <b>Proactive Communication</b> – Maintain open communication with your IT team or service provider to address issues promptly.</li>
+    <h2 style="color: #0073e6;">Best Practices for Website Maintenance</h2>
+    <ul style="color: #0073e6;">
+      <li>🗓️ Scheduled Reviews – <span style="color: black">Set up regular maintenance schedules and audits.</span></li>
+      <li>🔄 Automated Monitoring – <span style="color: black">Use tools to automate security scans and performance monitoring.</span></li>
+      <li>📧 Proactive Communication – <span style="color: black">Maintain open communication with your IT team or service provider to address issues promptly.</span></li>
     </ul>
 
-    <h2 style="color: #333;">Conclusion</h2>
-    <p style="color: #555;">Maintaining your website is crucial for long-term success. By following a comprehensive maintenance checklist, you can ensure that your site remains secure, efficient, and competitive in today's digital landscape.</p>
+    <h2 style="color: #0073e6;">Conclusion</h2>
+    <p style="color: black;">Maintaining your website is crucial for long-term success. By following a comprehensive maintenance checklist, you can ensure that your site remains secure, efficient, and competitive in today's digital landscape.</p>
   `
   },
   {
@@ -425,27 +416,26 @@ const blogData = [
     description: `
     <h1 style="color: #0073e6;">How Machine Learning Is Changing Digital Marketing in 2025</h1>
 
-    <h2 style="color: #333;">Introduction</h2>
-    <p style="color: #555;">Machine Learning is revolutionizing digital marketing by enabling data-driven decision-making and personalized customer experiences. In 2025, marketers are leveraging advanced algorithms to optimize campaigns, predict trends, and enhance overall marketing performance.</p>
+    <p style="color: black;">Machine Learning is revolutionizing digital marketing by enabling data-driven decision-making and personalized customer experiences. In 2025, marketers are leveraging advanced algorithms to optimize campaigns, predict trends, and enhance overall marketing performance.</p>
 
-    <h2 style="color: #333;">Key Benefits of Machine Learning in Digital Marketing</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>🤖 <b>Predictive Analytics</b> – Forecast consumer behavior and trends to tailor marketing strategies.</li>
-      <li>📊 <b>Data-Driven Insights</b> – Analyze large volumes of data for more informed campaign decisions.</li>
-      <li>⚡ <b>Automated Campaigns</b> – Optimize ad placements and bidding strategies in real time.</li>
-      <li>🎯 <b>Personalized Marketing</b> – Deliver customized content and recommendations to individual users.</li>
-      <li>🔄 <b>Real-Time Optimization</b> – Continuously refine campaigns based on live performance metrics.</li>
+    <h2 style="color: #0073e6;">Key Benefits of Machine Learning in Digital Marketing</h2>
+    <ul style="color: #0073e6;">
+      <li>🤖 Predictive Analytics – <span style="color: black">Forecast consumer behavior and trends to tailor marketing strategies.</span></li>
+      <li>📊 Data-Driven Insights – <span style="color: black">Analyze large volumes of data for more informed campaign decisions.</span></li>
+      <li>⚡ Automated Campaigns – <span style="color: black">Optimize ad placements and bidding strategies in real time.</span></li>
+      <li>🎯 Personalized Marketing – <span style="color: black">Deliver customized content and recommendations to individual users.</span></li>
+      <li>🔄 Real-Time Optimization – <span style="color: black">Continuously refine campaigns based on live performance metrics.</span></li>
     </ul>
 
-    <h2 style="color: #333;">Machine Learning Techniques in Marketing</h2>
-    <ul style="color: #0073e6; font-weight: bold;">
-      <li>📈 <b>Customer Segmentation</b> – Use clustering algorithms to identify and target key customer groups.</li>
-      <li>💡 <b>Sentiment Analysis</b> – Monitor social media and feedback to gauge consumer sentiment.</li>
-      <li>🛠️ <b>Recommendation Engines</b> – Enhance user engagement with personalized product and content suggestions.</li>
+    <h2 style="color: #0073e6;">Machine Learning Techniques in Marketing</h2>
+    <ul style="color: #0073e6;">
+      <li>📈 Customer Segmentation – <span style="color: black">Use clustering algorithms to identify and target key customer groups.</span></li>
+      <li>💡 Sentiment Analysis – <span style="color: black">Monitor social media and feedback to gauge consumer sentiment.</span></li>
+      <li>🛠️ Recommendation Engines – <span style="color: black">Enhance user engagement with personalized product and content suggestions.</span></li>
     </ul>
 
-    <h2 style="color: #333;">Conclusion</h2>
-    <p style="color: #555;">Embracing machine learning in digital marketing is crucial for staying competitive in 2025. By leveraging these powerful tools, businesses can create smarter, more efficient campaigns that drive growth and deliver superior customer experiences.</p>
+    <h2 style="color: #0073e6;">Conclusion</h2>
+    <p style="color: black;">Embracing machine learning in digital marketing is crucial for staying competitive in 2025. By leveraging these powerful tools, businesses can create smarter, more efficient campaigns that drive growth and deliver superior customer experiences.</p>
   `,
     link: "https://example.com/api-best-practices"
   }
