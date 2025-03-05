@@ -166,7 +166,7 @@ const Footer = () => {
               Our Services
             </h1>
           </div>
-            <div className="flex flex-col gap-2">
+            {/* <div className="flex flex-col gap-2">
       {services.map((service, index) => (
         <div
           key={index}
@@ -182,7 +182,26 @@ const Footer = () => {
           <HiArrowRight className="ml-1 text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-hover:text-gray-300" />
         </div>
       ))}
+    </div> */}
+
+<div className="flex flex-wrap gap-2">
+  {services.map((service, index) => (
+    <div
+      key={index}
+      onClick={handleScrollToServices}
+      className="group flex items-center gap-3 cursor-pointer"
+    >
+      <span className="text-xl transition-all duration-300 group-hover:scale-125">
+        {service.icon}
+      </span>
+      <h1 className="text-lg text-white transition-all duration-300 group-hover:text-red-400">
+        {service.text}
+      </h1>
+      <HiArrowRight className="ml-1 text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-hover:text-gray-300" />
     </div>
+  ))}
+</div>
+
         </div>
       </footer>
 

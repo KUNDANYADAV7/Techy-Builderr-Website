@@ -27,7 +27,7 @@ const App = () => {
               {/* <Route path="/services/:name" element={<HomeMain />} />  */}
               <Route path="/services" element={<Services />} />
               {/* <Route exact path="/blogs" element={<Blogs />} /> */}
-              <Route exact path="/blog/:id" element={<Detail />} />
+              <Route exact path="/blog/:slug" element={<Detail />} />
               <Route path="/all-blogs" element={<AllBlogs />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/terms-conditions" element={<TermsAndCon />} />
