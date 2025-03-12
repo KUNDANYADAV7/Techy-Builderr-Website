@@ -132,7 +132,7 @@ const Footer = () => {
             <FaMapMarkerAlt className="text-yellow-400 size-6 group-hover:scale-125" />
             <p className="text-slate-200 group-hover:text-red-400">
               34, 3rd floor, Sanket park, Iskon mandir,
-              Harinagar,Vadodara-390007, India
+              Harinagar,Vadodara-390021, India
             </p>
           </div>
 

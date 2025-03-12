@@ -87,7 +87,7 @@ const TermsAndCon = () => {
   }}
   className="text-blue-700 hover:text-blue-800 hover:underline inline-block"
 >techybuilderr@gmail.com</a>
-            <p className="font-semibold">34, 3rd floor, Sanket park, Iskcon mandir, Harinagar, Vadodara-390007, India</p>
+            <p className="font-semibold">34, 3rd floor, Sanket park, Iskcon mandir, Harinagar, Vadodara-390021, India</p>
           </div>
         </div>
       </div>

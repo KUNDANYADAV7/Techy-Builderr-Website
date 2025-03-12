@@ -113,7 +113,7 @@ const PrivacyPolicy = () => {
   }}
   className="text-blue-700 hover:text-blue-800 hover:underline inline-block"
 >techybuilderr@gmail.com</a>
-        <p className="text-gray-600 font-bold">34, 3rd floor, Sanket park, Iskcon mandir, Harinagar, Vadodara-390007, India</p>
+        <p className="text-gray-600 font-bold">34, 3rd floor, Sanket park, Iskcon mandir, Harinagar, Vadodara-390021, India</p>
       </section>
     </div>
   );

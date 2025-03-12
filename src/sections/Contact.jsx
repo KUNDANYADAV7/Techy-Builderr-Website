@@ -250,7 +250,7 @@ const Contact = () => {
         <div className="flex items-start gap-4">
           <FaMapMarkerAlt className="text-[#000045] text-2xl" />
           <span className="text-lg text-black">
-            34, 3rd floor, Sanket Park, Iskon Mandir, Harinagar, Vadodara-390007.
+            34, 3rd floor, Sanket Park, Iskon Mandir, Harinagar, Vadodara-390021.
           </span>
         </div>
       </div>
