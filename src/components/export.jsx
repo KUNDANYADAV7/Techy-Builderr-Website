@@ -56,7 +56,7 @@ export const service = [
 export const client = [
   {
     image: client1,
-    name: "Rohan Sharma 🇮🇳",
+    name: "Neha Kapoor 🇮🇳",
     text: "Outstanding Web Development!",
     feedback:
       "The team delivered an excellent website for my business! The UI/UX design was sleek, and the performance was top-notch. They understood my requirements perfectly and executed them flawlessly.",
@@ -84,7 +84,7 @@ export const client = [
   },
   {
     image: client5,
-    name: "Neha Kapoor 🇮🇳",
+    name: "Rohan Sharma 🇮🇳",
     text: "Reliable Website Maintenance!",
     feedback:
       "They provide top-notch website maintenance services. My website is always up-to-date, secure, and performing smoothly without any downtime!",
