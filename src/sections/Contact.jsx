@@ -49,7 +49,7 @@ const Contact = () => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
 
-    // Remove error message when user starts typing
+   
     setErrors({ ...errors, [name]: "" });
   };
 
